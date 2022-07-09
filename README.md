@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mgf;
+})();
 })();
 </script>
 ```
@@ -144,6 +146,7 @@ var y = mymgf( 0.1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-mgf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mu;
 var s;
@@ -159,6 +162,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 't: %d, µ: %d, s: %d, M_X(t;µ,s): %d', t.toFixed( 4 ), mu.toFixed( 4 ), s.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
