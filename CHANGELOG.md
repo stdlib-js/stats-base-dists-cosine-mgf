@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-19)
+## Unreleased (2025-01-20)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`33a4af8`](https://github.com/stdlib-js/stdlib/commit/33a4af8ea02d79120618cb4d50edb87d8aeab6a0) - **chore:** remove extra spaces _(by Philipp Burckhardt)_
 -   [`ecd8369`](https://github.com/stdlib-js/stdlib/commit/ecd836903721f0f381eb71739a785cb0077ccf01) - **feat:** add C implementation for `stats/base/dists/cosine/mgf` [(#4510)](https://github.com/stdlib-js/stdlib/pull/4510) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 
 </details>
